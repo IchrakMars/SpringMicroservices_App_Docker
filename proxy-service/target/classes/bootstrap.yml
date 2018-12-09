@@ -1,0 +1,9 @@
+spring:
+  profiles: docker
+  cloud:
+    config:
+      uri: http://config-service:8888
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery-service:8761/eureka/
