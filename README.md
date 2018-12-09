@@ -163,7 +163,8 @@ To stop the complete environment, we can use this command:
 $ docker-compose down
 ```
 All what we need to do now is to check the IP on which Docker default machine is running. The IP can be found once you open the docker terminal:
-
+<br/> 
+![Sixth Image](/img6.png?raw=true "Docker IP")
 
 Now, we can verify that our application is running.
 
