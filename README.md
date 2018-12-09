@@ -1,6 +1,6 @@
 # **Dockerizing a Spring Boot Microservices Application:**
 ---
-Once we have all our services ready and running perfectly on the local machine, we will be creating an individual container for each service, as shown in the microservice architecture diagram :
+Once we have all our services ready and running perfectly on the local machine, we will be creating an individual container for each service, as shown in the microservice architecture diagram : &nbsp;
 ![First Image](/img1.png?raw=true "Application Architecture")
 
 Below is the list of containers for our project:
@@ -80,7 +80,7 @@ Now, we need to add the following 2 file s _‘application -docker.properties �
 ```
 eureka.instance.hostname=discovery-service
 ```
-**bootstrap.yml:**
+**bootstrap.yml:** &nbsp;
 ![Second Image](/img2.png?raw=true "Bootstrap File")
 A script _“wait-for-it.sh”_ is also added under the root directory of the discovery service. It is a pure bash script that will wait on the availability of a host and TCP port. This will be useful for synchronizing the spin-up of our linked docker containers and control the order of the service startup.
 
@@ -138,15 +138,15 @@ Then, under the ‘ _resources_ ’ folder of each microservices (Proxy and Prod
 ```
 spring.cloud.config.uri = [http://config-service:8888](http://config-service:8888)
 ```
-**bootstrap.yml:**
+**bootstrap.yml:** &nbsp;
 ![Third Image](/img3.png?raw=true "Bootstrap File")
 
 Now let us create a file called _‘docker-compose.yml’_ , which will use all these Dockerfiles to spawn our required environments. It will also make sure that the required containers being spawned are maintaining correct order and they are interlinked.
 
-Under the root directory of our project, we add the following file ‘ _docker-compose.yml_ ’ :
+Under the root directory of our project, we add the following file ‘ _docker-compose.yml_ ’ : &nbsp;
 ![Fourth Image](/img4.png?raw=true "Compose File")
 
-Similarly, to what we did before, we add the “ _wait-for-it.sh_ ” script under this same directory as below:
+Similarly, to what we did before, we add the “ _wait-for-it.sh_ ” script under this same directory as below: &nbsp;
 ![Fifth Image](/img5.png?raw=true "Directory Hierarchy")
 
 After creating the file, let us build our images, create the required containers, and start with a single command:
@@ -157,7 +157,7 @@ To stop the complete environment, we can use this command:
 ```
 $ docker-compose down
 ```
-All what we need to do now is to check the IP on which Docker default machine is running. The IP can be found once you open the docker terminal:
+All what we need to do now is to check the IP on which Docker default machine is running. The IP can be found once you open the docker terminal: &nbsp;
 ![Sixth Image](/img6.png?raw=true "Docker IP")
 
 Now, we can verify that our application is running.
