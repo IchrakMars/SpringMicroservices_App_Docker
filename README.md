@@ -2,7 +2,7 @@
 ---
 Once we have all our services ready and running perfectly on the local machine, we will be creating an individual container for each service, as shown in the microservice architecture diagram : 
 <br/> <center>
-![First Image](/img1.png?raw=true "Application Architecture")
+![First Image](/img1.png?raw=true "Application Architecture") </center>
 
 Below is the list of containers for our project:
 
