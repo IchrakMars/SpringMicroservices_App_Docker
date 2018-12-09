@@ -174,7 +174,7 @@ Now, we can verify that our application is running.
 # References:
 ***
 <br/> 
-[https://www.callicoder.com/spring-boot-docker-example/](https://www.callicoder.com/spring-boot-docker-example/)
+[https://www.callicoder.com/spring-boot-docker-example/]
 <br/> 
 [https://dzone.com/articles/buiding-microservice-using-spring-boot-and-docker?fromrel=true](https://dzone.com/articles/buiding-microservice-using-spring-boot-and-docker?fromrel=true)
 <br/> 
