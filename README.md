@@ -1,7 +1,7 @@
 # **Dockerizing a Spring Boot Microservices Application:**
 ---
 Once we have all our services ready and running perfectly on the local machine, we will be creating an individual container for each service, as shown in the microservice architecture diagram : 
-&nbsp;
+<br/>;
 ![First Image](/img1.png?raw=true "Application Architecture")
 
 Below is the list of containers for our project:
